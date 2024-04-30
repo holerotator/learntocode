@@ -1,2 +1,29 @@
 2024-04-30 - codecademy / code foundations
 
+In this lesson I manipulated various variables on a javascript element embedded on an html web page.
+
+// Color variables:
+red = [0, 100, 63];
+orange = [40, 100, 60];
+green = [0, 0, 0];
+blue = [196, 77, 55];
+purple = [280, 50, 60];
+
+// Letters in the message will cycle through these colors:
+letterColors = [red, orange, green, blue, purple];
+
+message = '天空の下町';
+
+drawName(message, letterColors);
+bounceBubbles();
+
+The variables are contained in '', just like the HTML you were doing in 1997.
+
+The javascript elements are recalled from js files housed in the same file tree, next to the style sheet and the html file.
+
+Note that colors are noted in RGB, not hex, for reasons I dont really understand.
+
+Also, non-alphabet characters (like above) are rendered as gibberish. That's wack. There must be some kind of header or instruction to tell your system to display kanji.
+
+------------------------------------------------------------------------------------------------------------------
+
